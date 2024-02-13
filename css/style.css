@@ -1,0 +1,151 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-background {
+    background-color: #775ba3;
+}
+
+.nav-item>a {
+    color: #fff;
+}
+
+.navbar-font {
+    font-size: 14px;
+    color: #fff;
+}
+
+.welcome-font-title {
+    font-size: 40px;
+    color: #7e63a7;
+}
+
+.bottom-color {
+    border-top: 1px solid #91c5a9;
+    border-bottom: 1px solid #91c5a9;
+}
+
+.information-block {
+    border: 1px solid black;
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    border-radius: 60px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.information-block>img {
+    margin: 15px;
+}
+
+.information-font {
+    font-size: 40px;
+    color: #7e63a7
+}
+
+.information-font-title {
+    font-size: 13px;
+    color: #4b3f55;
+    margin: 0 auto;
+}
+
+.information-block-eye {
+    border: 1px solid black;
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    border-radius: 60px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.information-block-eye>img {
+    margin-top: 22px
+}
+
+.bg-information {
+    background-color: #fcfcfc;
+}
+
+.welcome-font-paragraph {
+    color: #4b3f55;
+    font-size: 23px;
+    margin: 0 auto
+}
+
+.photo-title {
+    font-size: 15px;
+    color: #91c5a9;
+}
+
+.photo-title-words {
+    border-bottom: 2px solid #91c5a9;
+    border-top: 2px solid #91c5a9;
+    width: 360px;
+    margin: 0 auto;
+}
+
+@media (max-width: 370px) {
+    .photo-title-words {
+        width: 100%;
+    }
+}
+
+.photo-title-paragraph {
+    font-size: 13px;
+    color: #4b3f55;
+}
+
+.button-color-facebook {
+    background-color: #3b5998;
+    border: #3b5998;
+}
+
+.button-colo-googleplus {
+    background-color: #d14333;
+    border: #d14333;
+}
+
+.button-colo-drip {
+    background-color: #ea4c88;
+    border: #ea4c88;
+}
+
+.button-color-twitter {
+    background-color: #00aced;
+    border: #00aced;
+}
+
+.button-color-youtube {
+    background-color: #c70c0c;
+    border: #c70c0c;
+}
+
+.portfolio-font {
+    font-size: 40px;
+    color: #7e63a7;
+}
+
+.footer {
+    background-color: #54865d;
+}
+
+.footer-title-font {
+    font-size: 14px;
+    color: #fff;
+}
+
+.img-photo {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img-photo img {
+    max-width: 360px;
+    max-height: 372px;
+    width: 100%;
+    height: auto;
+}
